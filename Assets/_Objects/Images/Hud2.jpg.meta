@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 9674d775dd6ea33439591a48e0d4d5e1
+timeCreated: 1434598367
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ret_1
+    21300002: Ret_2
+    21300004: HealthSlider
+    21300006: GasSlider
+    21300008: FlashSlider
+    21300010: HealthIcon
+    21300012: GasIcon
+    21300014: FlashIcon
+    21300016: GunIcon
+    21300018: CardIcon
+    21300020: IDontKnow
+    21300022: Card_5
+    21300024: Card_4
+    21300026: Card_3
+    21300028: Card_2
+    21300030: Card_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ret_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 363
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ret_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 276
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HealthSlider
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 60
+        width: 202
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GasSlider
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 43
+        width: 138
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlashSlider
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 98
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HealthIcon
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 64
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GasIcon
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlashIcon
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 28
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunIcon
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 64
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CardIcon
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 21
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IDontKnow
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 66
+        width: 85
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Card_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 32
+        width: 104
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Card_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 32
+        width: 84
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Card_3
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 32
+        width: 63
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Card_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 32
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Card_1
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 32
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

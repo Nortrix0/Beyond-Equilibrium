@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ff0bc742015404d800f356b5933c8e, type: 3}
+  m_Name: Controls
+  m_EditorClassIdentifier: 
+  Keys:
+  - Name: Action
+    Key: 101
+    Default: 101
+  - Name: Flashlight
+    Key: 102
+    Default: 102
+  - Name: Sneak
+    Key: 304
+    Default: 304
+  - Name: Swap Weapons
+    Key: 9
+    Default: 9
+  - Name: Hack
+    Key: 118
+    Default: 118
+  - Name: Melee
+    Key: 103
+    Default: 103
+  - Name: Pause
+    Key: 27
+    Default: 27
+  - Name: Attach Silencer
+    Key: 99
+    Default: 99

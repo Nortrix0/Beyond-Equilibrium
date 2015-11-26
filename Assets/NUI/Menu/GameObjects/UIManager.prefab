@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &153218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 496430}
+  - 114: {fileID: 11446648}
+  - 114: {fileID: 11464698}
+  - 114: {fileID: 11481846}
+  - 114: {fileID: 11412358}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &496430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11412358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9b0efe5666b4c4d86e0b4b17de7842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ResDDButton: {fileID: 0}
+  CloseVideoOptions: {fileID: 0}
+  OpenVideoOptions: {fileID: 0}
+  VideoOptionsPanel: {fileID: 0}
+  Templet: {fileID: 152114, guid: 57ced50c6e8002f409e4af7aaa8623ba, type: 2}
+  Panel: {fileID: 0}
+  PixelLight: {fileID: 0}
+  ShadowDis: {fileID: 0}
+  FullScreen: {fileID: 0}
+--- !u!114 &11446648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7132c8120d20741968c4351d77e788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OldSave: 0
+--- !u!114 &11464698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64080a77ae4f7b14092513f6f8fd1533, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OptionsMenu: {fileID: 0}
+  InvertX: {fileID: 0}
+  InvertY: {fileID: 0}
+  SubtitlesButton: {fileID: 0}
+  GoreButton: {fileID: 0}
+  KeepBodiesButton: {fileID: 0}
+  HoldADS: {fileID: 0}
+  MusicVolSlider: {fileID: 0}
+  MusicVol: {fileID: 0}
+  DialogueVolSlider: {fileID: 0}
+  DialogueVol: {fileID: 0}
+  SFXVolSlider: {fileID: 0}
+  SFXVol: {fileID: 0}
+  MasterMixer: {fileID: 0}
+  WarningPanel: {fileID: 0}
+  WarningYesButton: {fileID: 0}
+  WarningNoButton: {fileID: 0}
+  DefaultOptions: {fileID: 0}
+  OptionsButton: {fileID: 0}
+  CloseOptions: {fileID: 0}
+--- !u!114 &11481846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93e43b31571a484ebc173cce580e5ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Templet: {fileID: 100486, guid: 1c3224bf8616d874bb3ca6e3c6b3b4da, type: 2}
+  WaitingPanel: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[0].Name
+      value: Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[0].Key
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[0].Default
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[1].Name
+      value: Flashlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[1].Key
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[1].Default
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[2].Name
+      value: Sneak
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[2].Key
+      value: 304
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[2].Default
+      value: 304
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[3].Name
+      value: Swap Weapons
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[3].Key
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[3].Default
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[4].Name
+      value: Hack
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[4].Key
+      value: 118
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[4].Default
+      value: 118
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[5].Name
+      value: Melee
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[5].Key
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ControlList.Array.data[5].Default
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Templet
+      value: 
+      objectReference: {fileID: 100486, guid: 1c3224bf8616d874bb3ca6e3c6b3b4da, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 153218}
+  m_IsPrefabParent: 1

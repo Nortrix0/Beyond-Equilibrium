@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 885e381ee0ac7784f823c482bb8bd98c
+timeCreated: 1439867770
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _GameSettings: {fileID: 11400000, guid: 27829e4fb2c70e14c9447b96db5ecbbf, type: 2}
+  - _ControlSettings: {fileID: 11400000, guid: d3a715fcb32b8e649bafbde5a16bf08b, type: 2}
+  - _Stats: {fileID: 11400000, guid: af95f5df5d3ee3546b1a41b77e2b3f6f, type: 2}
+  - _Checkpoint: {fileID: 11400000, guid: 9cf9bb742bd8e544ca85c55d1333378c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: ad79f78ea3bb3a5469b52efb18378bb6
+timeCreated: 1440532369
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature_001
+    100004: Armature_002
+    100006: Bone
+    100008: Bone_0
+    100010: Bone_1
+    100012: //RootNode
+    100014: polySurface12
+    100016: polySurface13
+    100018: polySurface14
+    100020: polySurface18
+    100022: polySurface22
+    100024: polySurface26
+    100026: polySurface27
+    100028: polySurface28
+    100030: polySurface29
+    100032: polySurface30
+    100034: polySurface31
+    100036: polySurface32
+    100038: polySurface33
+    100040: polySurface34
+    100042: polySurface35
+    100044: transform1
+    100046: transform2
+    100048: transform3
+    100050: transform4
+    100052: transform5
+    100054: transform6
+    100056: transform7
+    400000: Armature
+    400002: Armature_001
+    400004: Armature_002
+    400006: Bone
+    400008: Bone_0
+    400010: Bone_1
+    400012: //RootNode
+    400014: polySurface12
+    400016: polySurface13
+    400018: polySurface14
+    400020: polySurface18
+    400022: polySurface22
+    400024: polySurface26
+    400026: polySurface27
+    400028: polySurface28
+    400030: polySurface29
+    400032: polySurface30
+    400034: polySurface31
+    400036: polySurface32
+    400038: polySurface33
+    400040: polySurface34
+    400042: polySurface35
+    400044: transform1
+    400046: transform2
+    400048: transform3
+    400050: transform4
+    400052: transform5
+    400054: transform6
+    400056: transform7
+    2300000: polySurface13
+    2300002: polySurface22
+    3300000: polySurface13
+    3300002: polySurface22
+    4300000: polySurface35
+    4300002: polySurface34
+    4300004: polySurface33
+    4300006: polySurface13
+    4300008: polySurface22
+    7400000: OpenTop
+    7400002: CloseTop
+    7400004: OpenMid
+    7400006: CloseMid
+    7400008: OpenBottom
+    7400010: CloseBottom
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: polySurface33
+    13700002: polySurface34
+    13700004: polySurface35
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: OpenTop
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: NewEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_1
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_0
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Bone
+        weight: 1
+      - path: polySurface12
+        weight: 1
+      - path: polySurface12/polySurface13
+        weight: 1
+      - path: polySurface12/polySurface14
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18/polySurface22
+        weight: 1
+      - path: polySurface26
+        weight: 1
+      - path: polySurface26/polySurface27
+        weight: 1
+      - path: polySurface26/polySurface27/transform7
+        weight: 1
+      - path: polySurface26/polySurface28
+        weight: 1
+      - path: polySurface26/polySurface28/transform6
+        weight: 1
+      - path: polySurface26/polySurface29
+        weight: 1
+      - path: polySurface26/polySurface29/transform5
+        weight: 1
+      - path: polySurface26/polySurface30
+        weight: 1
+      - path: polySurface26/polySurface30/transform4
+        weight: 1
+      - path: polySurface26/polySurface31
+        weight: 1
+      - path: polySurface26/polySurface31/transform3
+        weight: 1
+      - path: polySurface26/polySurface32
+        weight: 1
+      - path: polySurface26/polySurface32/transform2
+        weight: 1
+      - path: polySurface26/transform1
+        weight: 1
+      - path: polySurface33
+        weight: 1
+      - path: polySurface34
+        weight: 1
+      - path: polySurface35
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CloseTop
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_1
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_0
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Bone
+        weight: 1
+      - path: polySurface12
+        weight: 1
+      - path: polySurface12/polySurface13
+        weight: 1
+      - path: polySurface12/polySurface14
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18/polySurface22
+        weight: 1
+      - path: polySurface26
+        weight: 1
+      - path: polySurface26/polySurface27
+        weight: 1
+      - path: polySurface26/polySurface27/transform7
+        weight: 1
+      - path: polySurface26/polySurface28
+        weight: 1
+      - path: polySurface26/polySurface28/transform6
+        weight: 1
+      - path: polySurface26/polySurface29
+        weight: 1
+      - path: polySurface26/polySurface29/transform5
+        weight: 1
+      - path: polySurface26/polySurface30
+        weight: 1
+      - path: polySurface26/polySurface30/transform4
+        weight: 1
+      - path: polySurface26/polySurface31
+        weight: 1
+      - path: polySurface26/polySurface31/transform3
+        weight: 1
+      - path: polySurface26/polySurface32
+        weight: 1
+      - path: polySurface26/polySurface32/transform2
+        weight: 1
+      - path: polySurface26/transform1
+        weight: 1
+      - path: polySurface33
+        weight: 1
+      - path: polySurface34
+        weight: 1
+      - path: polySurface35
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OpenMid
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_1
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_0
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Bone
+        weight: 1
+      - path: polySurface12
+        weight: 1
+      - path: polySurface12/polySurface13
+        weight: 1
+      - path: polySurface12/polySurface14
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18/polySurface22
+        weight: 1
+      - path: polySurface26
+        weight: 1
+      - path: polySurface26/polySurface27
+        weight: 1
+      - path: polySurface26/polySurface27/transform7
+        weight: 1
+      - path: polySurface26/polySurface28
+        weight: 1
+      - path: polySurface26/polySurface28/transform6
+        weight: 1
+      - path: polySurface26/polySurface29
+        weight: 1
+      - path: polySurface26/polySurface29/transform5
+        weight: 1
+      - path: polySurface26/polySurface30
+        weight: 1
+      - path: polySurface26/polySurface30/transform4
+        weight: 1
+      - path: polySurface26/polySurface31
+        weight: 1
+      - path: polySurface26/polySurface31/transform3
+        weight: 1
+      - path: polySurface26/polySurface32
+        weight: 1
+      - path: polySurface26/polySurface32/transform2
+        weight: 1
+      - path: polySurface26/transform1
+        weight: 1
+      - path: polySurface33
+        weight: 1
+      - path: polySurface34
+        weight: 1
+      - path: polySurface35
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CloseMid
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_1
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_0
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Bone
+        weight: 1
+      - path: polySurface12
+        weight: 1
+      - path: polySurface12/polySurface13
+        weight: 1
+      - path: polySurface12/polySurface14
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18/polySurface22
+        weight: 1
+      - path: polySurface26
+        weight: 1
+      - path: polySurface26/polySurface27
+        weight: 1
+      - path: polySurface26/polySurface27/transform7
+        weight: 1
+      - path: polySurface26/polySurface28
+        weight: 1
+      - path: polySurface26/polySurface28/transform6
+        weight: 1
+      - path: polySurface26/polySurface29
+        weight: 1
+      - path: polySurface26/polySurface29/transform5
+        weight: 1
+      - path: polySurface26/polySurface30
+        weight: 1
+      - path: polySurface26/polySurface30/transform4
+        weight: 1
+      - path: polySurface26/polySurface31
+        weight: 1
+      - path: polySurface26/polySurface31/transform3
+        weight: 1
+      - path: polySurface26/polySurface32
+        weight: 1
+      - path: polySurface26/polySurface32/transform2
+        weight: 1
+      - path: polySurface26/transform1
+        weight: 1
+      - path: polySurface33
+        weight: 1
+      - path: polySurface34
+        weight: 1
+      - path: polySurface35
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OpenBottom
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_1
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_0
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Bone
+        weight: 1
+      - path: polySurface12
+        weight: 1
+      - path: polySurface12/polySurface13
+        weight: 1
+      - path: polySurface12/polySurface14
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18/polySurface22
+        weight: 1
+      - path: polySurface26
+        weight: 1
+      - path: polySurface26/polySurface27
+        weight: 1
+      - path: polySurface26/polySurface27/transform7
+        weight: 1
+      - path: polySurface26/polySurface28
+        weight: 1
+      - path: polySurface26/polySurface28/transform6
+        weight: 1
+      - path: polySurface26/polySurface29
+        weight: 1
+      - path: polySurface26/polySurface29/transform5
+        weight: 1
+      - path: polySurface26/polySurface30
+        weight: 1
+      - path: polySurface26/polySurface30/transform4
+        weight: 1
+      - path: polySurface26/polySurface31
+        weight: 1
+      - path: polySurface26/polySurface31/transform3
+        weight: 1
+      - path: polySurface26/polySurface32
+        weight: 1
+      - path: polySurface26/polySurface32/transform2
+        weight: 1
+      - path: polySurface26/transform1
+        weight: 1
+      - path: polySurface33
+        weight: 1
+      - path: polySurface34
+        weight: 1
+      - path: polySurface35
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CloseBottom
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_1
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_0
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Bone
+        weight: 1
+      - path: polySurface12
+        weight: 1
+      - path: polySurface12/polySurface13
+        weight: 1
+      - path: polySurface12/polySurface14
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18
+        weight: 1
+      - path: polySurface12/polySurface14/polySurface18/polySurface22
+        weight: 1
+      - path: polySurface26
+        weight: 1
+      - path: polySurface26/polySurface27
+        weight: 1
+      - path: polySurface26/polySurface27/transform7
+        weight: 1
+      - path: polySurface26/polySurface28
+        weight: 1
+      - path: polySurface26/polySurface28/transform6
+        weight: 1
+      - path: polySurface26/polySurface29
+        weight: 1
+      - path: polySurface26/polySurface29/transform5
+        weight: 1
+      - path: polySurface26/polySurface30
+        weight: 1
+      - path: polySurface26/polySurface30/transform4
+        weight: 1
+      - path: polySurface26/polySurface31
+        weight: 1
+      - path: polySurface26/polySurface31/transform3
+        weight: 1
+      - path: polySurface26/polySurface32
+        weight: 1
+      - path: polySurface26/polySurface32/transform2
+        weight: 1
+      - path: polySurface26/transform1
+        weight: 1
+      - path: polySurface33
+        weight: 1
+      - path: polySurface34
+        weight: 1
+      - path: polySurface35
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
